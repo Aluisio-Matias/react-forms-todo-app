@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <ul
+      class="list-group"
+    >
+      <li
+        class="list-group-item w-50"
+      >
+        default todo
+      </li>
+    </ul>
+    <button
+      class="btn btn-warning btn-sm"
+    >
+      Edit
+    </button>
+    <button
+      class="btn btn-dark btn-sm"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when editing 1`] = `
+<DocumentFragment>
+  <div>
+    <form>
+      <div
+        class="col-sm-4"
+      >
+        <input
+          class="form-control"
+          type="text"
+          value="default todo"
+        />
+      </div>
+      <button
+        class="btn btn-success btn-sm"
+      >
+        Update
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
